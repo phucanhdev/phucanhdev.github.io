@@ -151,7 +151,7 @@ button:focus {
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    background-image: url('../img/haru.jpg');
+    background-image: url('../img/GANG.png');
     background-size: cover;
     background-position: center;
     box-shadow: inset 0 0 0 5px var(--avatar-box-shadow-color);
