@@ -161,16 +161,18 @@ mode.addEventListener('click', function () {
 /* copy */
 
 function copyText(id) {
-    var r = document.createRange();
-    r.selectNode(document.getElementById(id));
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(r);
-    try {
-        document.execCommand('copy');
+    if (!document.querySelectorAll(".haru_alert").length > 0) {
+        var r = document.createRange();
+        r.selectNode(document.getElementById(id));
         window.getSelection().removeAllRanges();
-        console.log('Đã copy thành công text : ' + r + '!');
-    } catch (err) {
-        console.log('Không thể copy !');
+        window.getSelection().addRange(r);
+        try {
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+            createAlert('<i class="fab fa-discord" style="margin-right:3px;"></i> Successfully copied ' + r + ' !');
+            console.log('Đã copy thành công text : ' + r + '!');
+        } catch (err) {
+            console.log('Không thể copy !');
     }
 }
 
