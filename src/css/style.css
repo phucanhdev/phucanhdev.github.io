@@ -15,7 +15,7 @@ body {
     --mode-btn-bg-dark:#269340;
     --mode-btn-bg-dark-2:#269340;
     --list-item-bg-color:#eee;
-    --list-item-bg-color-2:#28a745;
+    --list-item-bg-color-2:#4B0082;
     --list-item-text-color:#666;
     --mode-btn-bg:#28a745;
     --text-color:#666;
@@ -32,7 +32,7 @@ body.dark-mode {
     --mode-btn-bg-dark:#e29f00;
     --mode-btn-bg-dark-2:#201f1f;
     --list-item-bg-color:#2b2a2a;
-    --list-item-bg-color-2:#2b2a2a;
+    --list-item-bg-color-2:#4B0082;
     --list-item-text-color:#fff;
     --mode-btn-bg:#ffb400;
     --text-color:#fff;
