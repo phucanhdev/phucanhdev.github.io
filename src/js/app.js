@@ -161,11 +161,8 @@ mode.addEventListener('click', function () {
 /* copy */
 
 function copyText(id) {
-    if (!document.querySelectorAll(".haru_alert").length > 0) {
-        var r = document.createRange();
-        r.selectNode(document.getElementById(id));
-        window.getSelection().removeAllRanges();
-        window.getSelection().addRange(r);
+    if (!document.querySelectorAll("._alert").length > 0) {
+        
         try {
             document.execCommand('copy');
             window.getSelection().removeAllRanges();
