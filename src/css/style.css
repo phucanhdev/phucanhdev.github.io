@@ -9,15 +9,15 @@
 }
 
 body {
-    --mode-bg-color:# 4b0082;
+    --mode-bg-color:#4b0082;
     --mode-default-color:#fff;
-    --avatar-box-shadow-color:# 4b0082;
+    --avatar-box-shadow-color:#4b0082;
     --mode-btn-bg-dark:#4B0082;
     --mode-btn-bg-dark-2:#269340;
     --list-item-bg-color:#eee;
-    --list-item-bg-color-2:# 4b0082;
+    --list-item-bg-color-2:#4b0082;
     --list-item-text-color:#666;
-    --mode-btn-bg:# 4b0082;
+    --mode-btn-bg:#4b0082;
     --text-color:#666;
 
     cursor: none;
@@ -28,11 +28,11 @@ body {
 body.dark-mode {
     --mode-bg-color:#000;
     --mode-default-color:#000;
-    --avatar-box-shadow-color:# 4b0082;
-    --mode-btn-bg-dark:# 4b0082;
+    --avatar-box-shadow-color:#4b0082;
+    --mode-btn-bg-dark:#4b0082;
     --mode-btn-bg-dark-2:#201f1f;
     --list-item-bg-color:#2b2a2a;
-    --list-item-bg-color-2:# 4b0082;
+    --list-item-bg-color-2:#4b0082;
     --list-item-text-color:#fff;
     --mode-btn-bg:#4B0082;
     --text-color:#fff;
