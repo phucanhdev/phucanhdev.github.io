@@ -95,7 +95,7 @@ if (localStorage['cursor'] !== 'true') {
     the_circle.classList.remove('hide');
 }
 
-document.getElementById('circle_toggle').addEventListener('click', function () {
+document.getElementById('circle_toggle')('click', function () {
     if (the_circle.classList.contains('hide')) {
         localStorage['cursor'] = true;
         console.log(localStorage['cursor']);
